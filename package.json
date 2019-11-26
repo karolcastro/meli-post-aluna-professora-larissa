@@ -10,9 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Larissayk/meli-post.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Larissayk/meli-post/issues"
+  },
+  "homepage": "https://github.com/Larissayk/meli-post#readme"
 }
