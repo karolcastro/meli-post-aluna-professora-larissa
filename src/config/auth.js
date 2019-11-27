@@ -1,5 +1,7 @@
 module.exports = {
-    secret:'2bdaab938523888f5b02ad95f697f8f6',
-    expiresIn: '7d',
+    secret:'82ca7bee1569a7802da9f7634aa900ac',// token
+    expiresIn: '7d',// tempo de expiracao
     
 };
+
+

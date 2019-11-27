@@ -5,7 +5,7 @@ const alunas = require("../model/alunas.json");
 exports.getToken = (req, res) => {
   const { name } = req.body;
   const user = alunas.find(e => e.nome == name);
-
+ 
   if (!user) {
     return res.status(401).json({ error: "User not found!" });
   }
@@ -16,7 +16,7 @@ exports.getToken = (req, res) => {
     return res.json({
       user: {
         id,
-        nome
+        nome,
       },
       token: jwt.sign({ id }, authConfig.secret, {
         expiresIn: authConfig.expiresIn,
