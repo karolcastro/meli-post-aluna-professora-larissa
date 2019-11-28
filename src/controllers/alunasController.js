@@ -1,5 +1,6 @@
 const alunas = require("../model/alunas.json")
 const fs = require('fs');
+const bcrypt = 
 
 exports.get = (req, res) => {
   console.log(req.url)
